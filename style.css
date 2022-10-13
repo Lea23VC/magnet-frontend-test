@@ -23,15 +23,30 @@
   --font-weight-thin: 300;
   --font-weight-bold: 600;
   --font-weight-heavy: 800;
-  --spacer-1: .25rem;
-  --spacer-2: .5rem;
+  --spacer-1: 0.25rem;
+  --spacer-2: 0.5rem;
   --spacer-3: 1rem;
   --spacer-4: 1.5rem;
   --spacer-5: 2rem;
-  --shadows: 7px 7px 7px rgba(0, 0, 0, .15);
+  --shadows: 7px 7px 7px rgba(0, 0, 0, 0.15);
 }
 
 html {
   font-size: 16px;
   line-height: 1.44;
+}
+
+header {
+  background-color: #20d397;
+}
+
+/*fonts*/
+
+header {
+  font-weight: bold;
+}
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
 }
