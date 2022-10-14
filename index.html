@@ -26,17 +26,57 @@
   <body>
     <header>
       <div class="main-header">
-        <div class="left-header"><img src="img/logo.png" /> Dogos</div>
+        <div class="left-header">
+          <div class="image-header"><img src="img/logo.png" /></div>
+          <div class="title-header">Dogos</div>
+        </div>
         <div class="right-header">{navlinks}</div>
       </div>
     </header>
 
-    <h1>{title}</h1>
-    {content1}
-    <a href="#"><img src="img/paw.png" />Learn more</a>
-    {content2}
-    <a href="#"><img src="img/paw.png" />Learn more</a>
-    {content3}
-    <a href="#"><img src="img/paw.png" />Learn more</a>
+    <div class="main-content">
+      <div class="main-title">
+        <h1>{title}</h1>
+      </div>
+
+      <div class="pets">
+        <div class="content content1">
+          <div class="content-box">
+            {content1}
+
+            <div class="learn-more">
+              <a href="#">
+                <div class="botton-icon"><img src="img/paw.png" /></div>
+                Learn more</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="content content2">
+          <div class="content-box">
+            {content2}
+            <div class="learn-more">
+              <a href="#">
+                <div class="botton-icon"><img src="img/paw.png" /></div>
+                Learn more</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="content content3">
+          <div class="content-box">
+            {content3}
+            <div class="learn-more">
+              <a href="#">
+                <div class="botton-icon"><img src="img/paw.png" /></div>
+                Learn more</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
